@@ -44,7 +44,7 @@ const NavBar = () => {
                     alt=""
                   />
                 )}
-                <li><Link to="/bookings">My Toys</Link></li>
+                <li><Link to="/myToys">My Toys</Link></li>
             <li><Link to="/allToys">All Toys</Link></li>
             <li><Link to="/addToy">Add A Toy</Link></li>
             <li><button onClick={handleLogOut}>Log out</button></li>
