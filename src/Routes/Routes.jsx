@@ -9,6 +9,7 @@ import PrivateRoute from "./PrivateRoute";
 import Blog from "../pages/Blog/Blog";
 import CardSection from "../pages/Home/About/CardSection";
 import CardDetails from "../pages/Home/About/CardDetails";
+import AllToys from "../AllToys";
 
 const router = createBrowserRouter([
     {
@@ -51,7 +52,12 @@ const router = createBrowserRouter([
         {
           path: 'bookings', 
           element: <PrivateRoute><Bookings></Bookings></PrivateRoute>
+        },
+        {
+          path: '/allToys',
+          element: <AllToys></AllToys>
         }
+      
       ]
     },
   ]);
