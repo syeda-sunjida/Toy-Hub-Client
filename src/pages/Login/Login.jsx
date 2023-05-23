@@ -54,7 +54,7 @@ const Login = () => {
                                 <input className="btn btn-primary" type="submit" value="Login" />
                             </div>
                         </form>
-                        <p className='my-4 text-center'>New to Car Doctors <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link> </p>
+                        <p className='my-4 text-center'>New to Toy world <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link> </p>
                         <div className="flex mt-4 gap-x-2">
           <button
             onClick={handleGoogleSignin}
