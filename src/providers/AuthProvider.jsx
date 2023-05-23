@@ -53,5 +53,6 @@ const AuthProvider = ({ children }) => {
         </AuthContext.Provider>
     );
 };
+//google log in added
 
 export default AuthProvider;
