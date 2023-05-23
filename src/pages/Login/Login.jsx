@@ -5,7 +5,7 @@ import { AuthContext } from '../../providers/AuthProvider';
 
 const Login = () => {
 
-    const { signIn } = useContext(AuthContext);
+    const { signIn, handleGoogleSignin } = useContext(AuthContext);
 
     const handleLogin = event => {
         event.preventDefault();
@@ -57,11 +57,11 @@ const Login = () => {
                         <p className='my-4 text-center'>New to Car Doctors <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link> </p>
                         <div className="flex mt-4 gap-x-2">
           <button
-            onClick={handleGoogleLogin}
+            onClick={handleGoogleSignin}
             type="button"
             className="flex text-green-500 items-center justify-center w-full p-2 border border-gray-600 rounded-md focus:ring-2 focus:ring-offset-1 focus:ring-purple-600"
           >
-            
+            Google Log in
           </button>
           
         </div>
