@@ -54,7 +54,7 @@ const AddToy = () => {
     }
     return (
         <div className='max-w-lg mx-auto'>
-            <h2 className='text-center text-5xl font-bold text-info mb-9'>Add Toy </h2>
+            <h2 className='text-center text-5xl font-bold text-error mb-9'>Add Toy </h2>
             <form onSubmit={handleAddToy}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="form-control">

@@ -1,4 +1,4 @@
-import CardSection from "./CardSection";
+// import CardSection from "./CardSection";
 
 
 
@@ -10,9 +10,9 @@ const About = () => {
                 <div className=''>
                     <h3 className='text-3xl text-error font-bold'></h3>
 
-                    <CardSection>
+                    {/* <CardSection>
 
-                    </CardSection>
+                    </CardSection> */}
                     
                 </div>
             </div>

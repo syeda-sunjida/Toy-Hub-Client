@@ -16,7 +16,7 @@ const Bookings = () => {
     const handleDelete = id => {
         const proceed = confirm('Are You sure you want to delete');
         if (proceed) {
-            fetch(`http://localhost:5000/bookings/${id}`, {
+            fetch(`http://:5000/bookings/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
