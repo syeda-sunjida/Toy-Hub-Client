@@ -13,7 +13,7 @@ const AllToys = () => {
 //   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5000/allToys")
+    fetch("https://toy-hub-server-navy.vercel.app/alltoys")
       .then((res) => res.json())
       .then((data) => {
         setToys(data);
