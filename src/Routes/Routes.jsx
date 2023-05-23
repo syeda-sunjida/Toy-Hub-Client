@@ -7,7 +7,7 @@ import SignUp from "../pages/SignUp/SignUp";
 import Bookings from "../pages/Bookings/Bookings";
 import PrivateRoute from "./PrivateRoute";
 import Blog from "../pages/Blog/Blog";
-// import CardSection from "../pages/Home/About/CardSection";
+
 // import CardDetails from "../pages/Home/About/CardDetails";
 import AllToys from "../AllToys";
 import AddToy from "../addToy";
