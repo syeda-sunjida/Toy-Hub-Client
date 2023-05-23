@@ -7,6 +7,8 @@ import BookService from "../pages/BookService/BookService";
 import Bookings from "../pages/Bookings/Bookings";
 import PrivateRoute from "./PrivateRoute";
 import Blog from "../pages/Blog/Blog";
+import CardSection from "../pages/Home/About/CardSection";
+import CardDetails from "../pages/Home/About/CardDetails";
 
 const router = createBrowserRouter([
     {
@@ -33,6 +35,18 @@ const router = createBrowserRouter([
           path: 'book/:id', 
           element: <BookService></BookService>, 
           loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`)
+        },
+        {
+        
+        
+          path: 'cradSection', 
+          element: <CardSection></CardSection> , 
+          
+        },
+        {
+          path: 'cardDetails/:id', 
+          element: <CardDetails></CardDetails> , 
+          loader: ({params}) => fetch(`http://localhost:5000/services/${params._id}`)
         },
         {
           path: 'bookings', 
